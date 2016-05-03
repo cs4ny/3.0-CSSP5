@@ -1,0 +1,29 @@
+* {
+	text-align: center;
+}
+
+body {
+	background-color: #111111;
+}
+
+h1, h2, p { 
+	color: white;
+}	
+
+#canvasContainer {
+	width: 800px;
+	margin: auto;
+}
+
+#pageCtrl {
+	width: 800px;
+	margin: auto;
+}
+
+#pageCtrl div {
+	width: 50%;
+	height: 50px;
+	float: left;
+}
+
+.clear {clear: both;}
