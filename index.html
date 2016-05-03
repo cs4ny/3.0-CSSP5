@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>P5 Template</title>
+  
+	<link rel="stylesheet" type="text/css" href="ABCBook.css">
+	<script src="p5.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="pages/A_Page.js"></script>
+	<script src="pages/B_Page.js"></script>
+	<script src="pages/U_Page.js"></script>
+	<script src="pages/X_Page.js"></script>
+	<script src="ABCBook.js"></script>
+	
+	
+</head>
+
+
+<body>
+<h1>ABC BOOK</h1>
+<h2 id="pgText"></h2>
+
+<div id="canvasContainer">
+</div>
+
+<div id="pageCtrl">
+	<div><input id="back" type="button" value="Previous Page" onclick="book.flipBack()"></div>
+	<div><input id="forward" type="button" value="Next Page" onclick="book.flipForward();"></div>
+</div>
+
+<p id="pgInstructions" class="clear"></p>
+	
+</body>
+</html>
