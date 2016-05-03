@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="B-NameAdd.css">
+	<script src="p5.min.js"></script>
+	<script src="B-NameAdd.js"></script>
+	<script src="p5.dom.js"></script>
+	
+<style>
+.button {
+    background-color: #000000; 
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	position: absolute;
+    top: 800px;
+	left:850px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
+
+	<!-- Script tags may be placed anywhere in the head http://localhost/Test/B-NameAdd.html  http://www.w3schools.com/css/css3_buttons.asp-->
+</head>
+
+<!--<body background = "B-background.jpg"> -->
+<body>
+
+<hr style="height:10px;border:none;color:#333;background-color:#333;" />
+<hr style="height:5px;border:none;color:#333;background-color:#333;" />
+
+<div id="home">
+	<a href="file:///C:/xampp/htdocs/Test/B-Name.html">
+	<h3 style="color:white;font-size:30px;font-family:Impact;text-align:center"> TBLOG </h3>	
+	</a>
+	<hr style="height:2px;border:none;color:#333;background-color:#333;" />
+</div>
+
+<div id="archive">
+	<a href="file:///C:/xampp/htdocs/Test/B-NameArchive.html">
+	<h3 style="color:white;font-size:30px;font-family:Impact;text-align:center"> ARCHIVE </h3>
+	</a>
+	<hr style="height:2px;border:none;color:#333;background-color:#333;" />
+</div>
+
+<div id="about">
+	<a href="file:///C:/xampp/htdocs/Test/B-NameAbout.html">
+	<h3 style="color:white;font-size:30px;font-family:Impact;text-align:center"> ABOUT </h3>
+	</a>
+	<hr style="height:2px;border:none;color:#333;background-color:#333;" />
+</div>
+
+<div id="add">
+	<a href="file:///C:/xampp/htdocs/Test/B-NameAdd.html">
+	<h3 style="color:white;font-size:30px;font-family:Impact;text-align:center"> + </h3>
+	</a>
+	<hr style="height:2px;border:none;color:#333;background-color:#333;" />
+</div>
+
+<div id= "logo">
+	<img src="B-logo.png"/>
+</div>
+
+<h1> POSTING </h1>
+
+	
+<div id = "post">
+	<p style = "color: #380000; font-size: 17px; font-family: Courier New; font-weight:bold;"> WRITE SOMETHING </p>
+</div>
+
+<button class = "button button2" onclick = "clicked = true;"> SAVE </button>
+
+<!-- Script tags are often placed at the end of the body so that the
+	 webpage will load before the script begins.  This script also
+	 links to a separate javascript file.  This helps to keep code
+	 organized. 
+-->
+
+</body>
+
+</html>
